@@ -1,0 +1,19 @@
+{
+  "name": "Django(python) Redis caching Example",
+  "description": "Show how the redis works with Django(Python).",
+  "repository": "https://github.com/",
+  "logo": "https://redis.io/images/redis-white.png",
+  "keywords": ["python", "py", "redis"],
+  "addons": ["heroku-redis"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "HEROKU_DEPLOY": {
+      "value": "True",
+      "required": false
+    }
+  }
+}
